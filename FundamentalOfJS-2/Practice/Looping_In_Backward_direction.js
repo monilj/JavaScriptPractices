@@ -18,5 +18,4 @@ for (excercise = 1; excercise < 4; excercise++) {
     for (let rep = 1; rep < 6; rep++) {
         console.log(`lifting wait repitation ${rep}`);
     }
-
 }
