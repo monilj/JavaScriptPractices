@@ -3,4 +3,4 @@
 const x = 'Sam';
 const y = 'John';
 
-console.log();
+console.log('Go live now');
