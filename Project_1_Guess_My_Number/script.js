@@ -8,3 +8,13 @@ document.querySelector('.score').textContent = 20;
 console.log(document.querySelector('.guess').value);
 document.querySelector('.guess').value = 23;
 console.log(document.querySelector('.guess').value);
+
+// Seperator
+document.querySelector('.check').addEventListener('click', function () {
+  const guess = Number(document.querySelector('.guess').value);
+  console.log(guess, typeof guess);
+
+  if (!guess) {
+    document.querySelector('.message').textContent = 'Not a Number';
+  }
+});
