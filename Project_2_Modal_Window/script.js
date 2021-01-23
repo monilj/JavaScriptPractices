@@ -22,3 +22,10 @@ overlay.addEventListener('click', closeModal);
 //   modal.classList.add('hidden');
 //   overlay.classList.add('hidden');
 // });
+
+document.addEventListener('keydown', function (e) {
+  const keyPress = e.key;
+  if (keyPress === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
