@@ -1,15 +1,15 @@
 'use strict';
-const weekdays = ['mon','tues','wed','thu','fri','sat','sun']
+const weekdays = ['mon', 'tues', 'wed', 'thu', 'fri', 'sat', 'sun'];
 const hours = {
-//   thu: {
-//     open: 12,
-//     close: 22,
-//   },
-// ES6
-[weekdays[4]]={
-open:12,
-close:12
-},
+  //   thu: {
+  //     open: 12,
+  //     close: 22,
+  //   },
+  // ES6
+  [weekdays[4]]: {
+    open: 12,
+    close: 12,
+  },
   fri: {
     open: 11,
     close: 23,
