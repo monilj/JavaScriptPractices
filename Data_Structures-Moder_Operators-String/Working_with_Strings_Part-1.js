@@ -31,3 +31,6 @@ const checkMiddleSeat = function (seat) {
 checkMiddleSeat('11B');
 checkMiddleSeat('23C');
 checkMiddleSeat('3E');
+
+console.log(new String('Monil'));
+console.log(typeof new String('Monil'));
